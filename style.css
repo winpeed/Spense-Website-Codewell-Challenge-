@@ -46,6 +46,7 @@ header {
 nav {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 1em;
 }
 
 nav ul {
@@ -57,7 +58,7 @@ nav img {
 }
 
 p {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: #707070;
   line-height: 1.7;
 }
@@ -68,6 +69,10 @@ p {
 
 .hero-list {
   padding: 0em 2em;
+}
+
+.hero-form {
+  padding: 1em 0em;
 }
 
 .hero-form input {
@@ -88,11 +93,15 @@ p {
   border-radius: 3px;
 }
 
+.hero div h1 {
+  font-size: 1.5rem;
+}
+
 .logo-area {
   display: flex;
   flex-wrap: nowrap;
   overflow-x: scroll;
-  padding: 3em 1em 2em 0.6em;
+  padding: 3em 1em 1.5em 0.6em;
 }
 
 .logo-area a {
@@ -123,8 +132,8 @@ main {
 }
 
 .section-heading {
-  font-size: 1.4rem;
-  padding-right: 2em;
+  font-size: 1.5rem;
+  padding-right: 3em;
 }
 
 footer {
