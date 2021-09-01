@@ -404,7 +404,7 @@ div h4 {
 
 @media (min-width: 1200px) {
   .hero div:nth-child(2) {
-    flex: 0 0 25%;
+    flex: 0 0 29%;
   }
 
   nav ul {
@@ -433,5 +433,9 @@ div h4 {
 
   .editor-heading {
     padding: 0em;
+  }
+
+  .hero-image {
+    content: url("img/Hero Image (Desktop).png");
   }
 }
