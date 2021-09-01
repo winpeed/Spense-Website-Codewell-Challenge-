@@ -1,0 +1,173 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Cabin", sans-serif;
+  font-size: 14px;
+}
+
+.top-header {
+  text-align: center;
+  background: black;
+  color: white;
+  font-size: 0.8rem;
+  line-height: 1.7;
+  padding: 1em;
+  margin: 0;
+}
+
+.top-link {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  background: #f0eeeb;
+  padding: 1em;
+  margin: 0;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.hero-image {
+  content: url("img/Hero Image (Mobile).png");
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: none;
+}
+
+nav img {
+  cursor: pointer;
+}
+
+p {
+  font-size: 0.8rem;
+  color: #707070;
+  line-height: 1.7;
+}
+
+.hero-list li {
+  list-style-image: url("img/Checkmark.svg");
+}
+
+.hero-list {
+  padding: 0em 2em;
+}
+
+.hero-form input {
+  padding: 0.8em;
+  text-align: center;
+  max-width: 145px;
+  border: 1px solid #969593;
+  border-radius: 3px;
+}
+
+.hero-form button {
+  padding: 0.8em 1em;
+  background: #000000;
+  color: #ffffff;
+  border: none;
+  margin-left: 0.5em;
+  font-weight: 600;
+  border-radius: 3px;
+}
+
+.logo-area {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  padding: 3em 1em 2em 0.6em;
+}
+
+.logo-area a {
+  flex: 0 0 30%;
+  padding-left: 0.7em;
+  cursor: pointer;
+}
+
+main {
+  background: #ffffff;
+  padding: 0em 1em;
+}
+
+.mockup-area {
+  background: #f0eeeb;
+  border-radius: 15px 15px 0px 5px;
+  margin-top: 2em;
+}
+
+.mockup-area div {
+  padding: 1.5em 1.5em 0em 1.5em;
+}
+
+.more-link {
+  color: #707070;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.section-heading {
+  font-size: 1.4rem;
+  padding-right: 2em;
+}
+
+footer {
+  background: #000000;
+  padding: 1.5em 1.2em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+footer div:nth-child(1) {
+  flex: 0 0 100%;
+}
+
+footer div:nth-child(2) {
+  flex: 0 0 50%;
+}
+
+footer div:nth-child(4) {
+  flex: 0 0 50%;
+}
+
+.footer-heading {
+  font-size: 0.85rem;
+  color: #ffffff;
+}
+
+div h4 {
+  color: white;
+  font-size: 0.9rem;
+}
+
+.footer-list {
+  color: #707070;
+  padding: 0;
+  line-height: 1.9;
+}
+
+.footer-list li {
+  list-style: none;
+}
+
+.footer-list li a {
+  color: #707070;
+  text-decoration: none;
+}
