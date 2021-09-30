@@ -2,7 +2,7 @@ let hamMenu = document.querySelector(".hamburger");
 
 let navigationBar = document.getElementsByTagName("nav");
 
-let navigationLinks = document.getElementsByClassName("nav-links");
+let navigationLinks = document.querySelectorAll(".nav-links");
 
 console.log(navigationLinks);
 
@@ -11,9 +11,9 @@ hamMenu.addEventListener("click", () => {
   hamMenu.classList.toggle("close");
 });
 
-for (let i = 0; i < navigationLinks.length; i++) {
-  navigationLinks[i].addEventListener("click", () => {
-    navigationBar[0].classList.add("nav-close");
-    hamMenu.classList.add("open");
+navigationLinks.forEach((navlink) => {
+  navlink.addEventListener("click", () => {
+    navigationBar[0].classList.remove("nav-open");
+    hamMenu.classList.remove("close");
   });
-}
+});
